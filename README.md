@@ -61,14 +61,14 @@ GRANT ALL PRIVILEGES ON DATABASE yourdbname TO your_username;
 3. **Import the database dump**
    Navigate to the directory containing your SQL dump file:
 ```bash
-cd /path/to/your/project/database
+cd Backend/RainingFish/src/db
 ```
 Import the database:
 ```bash
-psql -U your_username -d yourdbname -f your_database_dump.sql
+psql -U your_username -d yourdbname -f RainingFishScoreDB.sql
 ```
 4. **Verify the import**
-5. 
+
 Connect to your database:
 ```bash
 psql -U your_username -d yourdbname
