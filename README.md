@@ -67,10 +67,6 @@ Import the database:
 ```bash
 psql -U your_username -d yourdbname -f your_database_dump.sql
 ```
-If your SQL file is compressed:
-```bash
-gunzip -c your_database_dump.sql.gz | psql -U your_username -d yourdbname
-```
 4. **Verify the import**
 5. 
 Connect to your database:
