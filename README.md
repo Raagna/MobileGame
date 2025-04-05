@@ -18,7 +18,7 @@ Concept: The main concept of the game is to move the barrel left and right to ca
 
 ## Technologies 
 ### Frontend:
-Made with React, React-Native, React-Native Reanimated, React-Native Game Engine and matter.js.
+Made with React, React-Native, React-Native Reanimated, React-Native Game Engine, Expo and matter.js.
 ### Backend:
 Spring Boot and PostgreSQL
 
