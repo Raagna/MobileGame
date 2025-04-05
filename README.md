@@ -43,31 +43,64 @@ Ensure you have the following installed:
 
 1. **Clone the repository**
 
-   ```bash
+    ```bash
    git clone https://github.com/raagna/MobileGame.git
    cd MobileGame/backend
 
-Configure the database
-Open src/main/resources/application.properties or application.yml and update database configurations:
-propertiesCopyspring.datasource.url=jdbc:mysql://localhost:3306/yourdbname
-spring.datasource.username=your_username
-spring.datasource.password=your_password
+2. **Configure the database**
+Open src/main/resources/application.properties or application.yml and update the database configurations:
 
-Build the application
-With Maven:
-bashCopymvn clean install
-With Gradle:
-bashCopy./gradlew build
+    ```properties
+    propertiesCopyspring.datasource.url=jdbc:mysql://localhost:yourport/yourdbname
+    spring.datasource.username=your_username
+    spring.datasource.password=your_password
 
-Run the application
-With Maven:
-bashCopymvn spring-boot:run
-With Gradle:
-bashCopy./gradlew bootRun
+3. **Build the application With Maven**
+  
+    ```bash
+    mvn clean install
+
+
+4. **Run the application**
+    ```bash
+    mvn spring-boot:run
 The backend server should now be running on http://localhost:8080
 
+### Frontend Setup (React Native with Expo)
+1. **Navigate to the frontend directory**
+    ````bash
+    cd ../frontend
+
+2. **Install dependencies**
+    ```bash
+    npm install
+
+4. **Configure API endpoint**
+Create or update .env file in the frontend root directory:
+API_URL=http://localhost:8080/api
+Note: For actual device testing, you'll need to use your machine's IP address or a public URL.
+Install specific packages for Matter.js, Axios, and Expo
+bashCopynpm install matter-js axios expo-cli
+If you're using TypeScript and need type definitions:
+bashCopynpm install @types/matter-js --save-dev
 
 
+Running the Application
+
+Start the backend server (if not already running)
+bashCopycd ../backend
+mvn spring-boot:run
+
+Start the React Native Expo development server
+bashCopycd ../frontend
+npx expo start
+
+Run the application
+
+For iOS simulator: Press i
+For Android emulator: Press a
+For web browser: Press w
+To run on physical device: Scan the QR code using the Expo Go app
 
 
 
