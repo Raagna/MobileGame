@@ -9,7 +9,7 @@ const SCREEN_HEIGHT = SCREEN_DIMENSIONS.height;
 class SHBox extends Component {
   constructor(props) {
     super(props);
-    console.log("SharkBox component created!"); // Fixed log message
+    //console.log("SharkBox component created!"); // Fixed log message
   }
 
   render() {
