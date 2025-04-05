@@ -59,7 +59,6 @@ Open src/main/resources/application.properties or application.yml and update the
     ```bash
     mvn clean install
 
-
 4. **Run the application**
     ```bash
     mvn spring-boot:run
