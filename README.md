@@ -5,8 +5,8 @@
 - [Technologies](#technologies)
 - [Installation](#installation)
   - [Prerequisites](#prerequisites)
-  - [Backend Setup (Spring Boot)](#backend-setup-(spring-boot))
-  - [Frontend Setup (React Native with Expo)](frontend-setup-(react-native-with-expo))
+  - [Backend Setup (Spring Boot)](#backend-setup-spring-boot)
+  - [Frontend Setup (React Native with Expo)](#frontend-setup-react-native-with-expo)
   - [Running the Application](running-the-application)
   - [Troubleshooting](#troubleshoot)
 
@@ -33,18 +33,19 @@ Spring Boot and PostgreSQL
 ### Prerequisites
 Ensure you have the following installed:
 
-- [Java Development Kit (JDK) 17+]
-- [Node.js (v16+) and npm]
-- [Git]
-- [Maven]
-- [Expo CLI]
-
-
+- Java Development Kit (JDK) 17+
+- Node.js (v16+) and npm
+- Git
+- Maven
+- Expo CLI
+  
 ### Backend Setup (Spring Boot)
 
-Clone the repository
-bashCopygit clone https://github.com/yourusername/your-project-name.git
-cd your-project-name/backend
+1. **Clone the repository**
+
+   ```bash
+   git clone https://github.com/raagna/MobileGame.git
+   cd MobileGame/backend
 
 Configure the database
 Open src/main/resources/application.properties or application.yml and update database configurations:
