@@ -9,7 +9,7 @@ const SCREEN_HEIGHT = SCREEN_DIMENSIONS.height;
 class FBox extends Component {
   constructor(props) {
     super(props);
-    console.log("FBox component created!"); // Debugging
+    //console.log("FBox component created!"); // Debugging
   }
 
   render() {
