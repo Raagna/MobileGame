@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://10.0.0.98:8080/api/scores';
+const API_URL = 'http://<IP>:8080/api/scores';
 
 export const getHighScore = async() => {
 	try {
