@@ -32,11 +32,11 @@ Spring Boot and PostgreSQL
 ### Prerequisites
 Ensure you have the following installed:
 
-- Java Development Kit (JDK) 17+
-- Node.js (v16+) and npm
-- Git
-- Maven
-- Expo CLI
+- **Java Development Kit (JDK) 17+**
+- **Node.js (v16+) and npm**
+- **Git**
+- **Maven**
+- **Expo CLI**
   
 ### Backend Setup (Spring Boot)
 
