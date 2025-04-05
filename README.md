@@ -8,7 +8,6 @@
   - [Backend Setup (Spring Boot)](#backend-setup-spring-boot)
   - [Frontend Setup (React Native with Expo)](#frontend-setup-react-native-with-expo)
   - [Running the Application](running-the-application)
-  - [Troubleshooting](#troubleshoot)
 
 ## Description
 The concept of the game is to move the barrel left and right to catch as many fish as you can without touching the sharks. You get 3 lives; every time you hit a shark, you lose a life. The higher your score the faster they start to drop.
@@ -76,31 +75,34 @@ The backend server should now be running on http://localhost:8080
     npm install
 
 4. **Configure API endpoint**
-Create or update .env file in the frontend root directory:
-API_URL=http://localhost:8080/api
-Note: For actual device testing, you'll need to use your machine's IP address or a public URL.
-Install specific packages for Matter.js, Axios, and Expo
-bashCopynpm install matter-js axios expo-cli
-If you're using TypeScript and need type definitions:
-bashCopynpm install @types/matter-js --save-dev
+Edit the highScoreService.tsx file and change the API URL:
+    ```tsx
+    API_URL=http://localhost:8080/api
+**Note: For actual device testing, you'll need to use your machine's IP address or a public URL.**
 
+5. **Install specific packages for Matter.js, Axios, and Expo**
+    ```bash
+    npm install matter-js axios expo-cli
+    npm install @types/matter-js --save-dev
 
-Running the Application
+### Running the Application
 
-Start the backend server (if not already running)
-bashCopycd ../backend
-mvn spring-boot:run
+1. Start the backend server (if not already running)
+    ```bash 
+    cd ../backend
+    mvn spring-boot:run
 
-Start the React Native Expo development server
-bashCopycd ../frontend
-npx expo start
+2. Start the React Native Expo development server
+    ```bash
+    cd ../frontend
+    npx expo start
 
-Run the application
+3. Run the application
 
 For iOS simulator: Press i
 For Android emulator: Press a
 For web browser: Press w
-To run on physical device: Scan the QR code using the Expo Go app
+To run on a physical device: Scan the QR code using the Expo Go app
 
 
 
