@@ -11,7 +11,7 @@
   - [Troubleshooting](#troubleshoot)
 
 ## Description
-Concept: The main concept of the game is to move the barrel left and right to catch as many fish as you can without touching the sharks. You get 3 lives; every time you hit a shark, you lose a life. The higher your score the faster they start to drop.
+The concept of the game is to move the barrel left and right to catch as many fish as you can without touching the sharks. You get 3 lives; every time you hit a shark, you lose a life. The higher your score the faster they start to drop.
 
 
 ## Screen shots 
@@ -33,11 +33,13 @@ Spring Boot and PostgreSQL
 ### Prerequisites
 Ensure you have the following installed:
 
-Java Development Kit (JDK) 17+
-Node.js (v16+) and npm
-Git
-Maven 
-Expo CLI
+- [Java Development Kit (JDK) 17+](https://adoptium.net/)
+- [Node.js (v16+) and npm](https://nodejs.org/)
+- [Git](https://git-scm.com/)
+- [Maven](https://maven.apache.org/download.cgi) or [Gradle](https://gradle.org/install/) (depending on your backend build tool)
+- [Expo CLI](https://docs.expo.dev/get-started/installation/)
+- A code editor like [VS Code](https://code.visualstudio.com/) or [IntelliJ IDEA](https://www.jetbrains.com/idea/)
+
 
 ### Backend Setup (Spring Boot)
 
