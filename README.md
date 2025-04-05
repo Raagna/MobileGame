@@ -33,12 +33,11 @@ Spring Boot and PostgreSQL
 ### Prerequisites
 Ensure you have the following installed:
 
-- [Java Development Kit (JDK) 17+](https://adoptium.net/)
-- [Node.js (v16+) and npm](https://nodejs.org/)
-- [Git](https://git-scm.com/)
-- [Maven](https://maven.apache.org/download.cgi) or [Gradle](https://gradle.org/install/) (depending on your backend build tool)
-- [Expo CLI](https://docs.expo.dev/get-started/installation/)
-- A code editor like [VS Code](https://code.visualstudio.com/) or [IntelliJ IDEA](https://www.jetbrains.com/idea/)
+- [Java Development Kit (JDK) 17+]
+- [Node.js (v16+) and npm]
+- [Git]
+- [Maven]
+- [Expo CLI]
 
 
 ### Backend Setup (Spring Boot)
