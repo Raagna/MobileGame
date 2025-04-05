@@ -1,0 +1,5 @@
+com\example\RainingFish\model\RainingFishScore.class
+com\example\RainingFish\repository\RainingFishScoreRepository.class
+com\example\RainingFish\controller\RainingFishScoreController.class
+com\example\RainingFish\RainingFishApplication.class
+com\example\RainingFish\service\RainingFishScoreService.class
